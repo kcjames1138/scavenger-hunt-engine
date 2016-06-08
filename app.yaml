@@ -1,4 +1,4 @@
-application: myapp
+application: scavenger-hunt-engine
 version: alpha-001
 runtime: php55
 api_version: 1
