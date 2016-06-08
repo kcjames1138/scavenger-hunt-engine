@@ -1,4 +1,4 @@
-application: myapp
+application: s
 version: alpha-001
 runtime: php55
 api_version: 1
