@@ -13,3 +13,10 @@ handlers:
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+
+env_variables:
+  # Replace project, instance, database, user and password with the values obtained
+  # when configuring your Cloud SQL instance.
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/scavenger-hunt-engine-1336:us-central1:scavenger-hunt-engine;dbname=DATABASE
+  MYSQL_USER: root
+  MYSQL_PASSWORD: ''
